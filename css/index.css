@@ -1,11 +1,6 @@
-@font-face {
-    font-family: 'proggysquarettregular';
-    src: url('proggysquare-webfont.woff2') format('woff2'),
-         url('proggysquare-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
 body {
 	background-color:#000;
 	margin:0;
@@ -13,29 +8,29 @@ body {
 }
 #typing-text {
 	margin:0;
-	font-family:Proggy;
+	font-family:VT323;
 	color:white;
 	display:inline-block;
 }
 #static-text {
 	margin:0;
-	font-family:Proggy;
+	font-family:VT323;
 	color:white;
 }
 #prefix-text {
 	margin:0;
-	font-family:Proggy;
+	font-family:VT323;
 	color:white;
 	display:inline-block;
 }
 #output-text {
 	margin:0;
-	font-family:Proggy;
+	font-family:VT323;
 	color:white;
 }
 #cursor {
 	display:inline;
-	font-family:Proggy;
+	font-family:VT323;
 	color:white;
 	font-weight:bold;
 	visibility:visible;
