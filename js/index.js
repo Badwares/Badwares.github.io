@@ -26,6 +26,12 @@ function typingText() {
 }
 setTimeout(typingText,1000);
 
+function loginMessage() {
+	document.getElementById("output-text").innerHTML = "Username: Badware";
+	document.getElementById("output-text").innerHTML = "Password: ****************";
+	newElement();
+}
+
 function welcomeMessage() {
 	document.getElementById("output-text").innerHTML = "Welcome back, Badware.<br></br>";
 	document.getElementById("output-text").style.display = "block";
