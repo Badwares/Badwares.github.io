@@ -1,6 +1,6 @@
 @font-face {
-	font-family:MS-DOS;
-	src:url(https://pdl.rip/font/DOS.ttf);
+	font-family:Proggy;
+	src:url(font/ProggySquare.ttf);
 }
 body {
 	background-color:#000;
@@ -9,29 +9,29 @@ body {
 }
 #typing-text {
 	margin:0;
-	font-family:MS-DOS;
+	font-family:Proggy;
 	color:white;
 	display:inline-block;
 }
 #static-text {
 	margin:0;
-	font-family:MS-DOS;
+	font-family:Proggy;
 	color:white;
 }
 #prefix-text {
 	margin:0;
-	font-family:MS-DOS;
+	font-family:Proggy;
 	color:white;
 	display:inline-block;
 }
 #output-text {
 	margin:0;
-	font-family:MS-DOS;
+	font-family:Proggy;
 	color:white;
 }
 #cursor {
 	display:inline;
-	font-family:MS-DOS;
+	font-family:Proggy;
 	color:white;
 	font-weight:bold;
 	visibility:visible;
