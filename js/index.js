@@ -12,8 +12,8 @@ document.getElementById("output-text").style.display = "none";
 cursorBlink();
 setInterval(cursorBlink, 500);
 
-var text = "help";
-var time = 200;
+var text = "Login";
+var time = 2000;
 var letter = 0;
 function typingText() {
 	if(letter < text.length) {
@@ -27,7 +27,7 @@ function typingText() {
 setTimeout(typingText,1000);
 
 function welcomeMessage() {
-	document.getElementById("output-text").innerHTML = "Welcome to pdl.rip!<br><br>More coming soon!";
+	document.getElementById("output-text").innerHTML = "Welcome back, Badware.";
 	document.getElementById("output-text").style.display = "block";
 	newElement();
 }
