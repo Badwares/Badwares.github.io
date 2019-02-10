@@ -13,7 +13,7 @@ cursorBlink();
 setInterval(cursorBlink, 500);
 
 var text = "Login";
-var time = 2000;
+var time = 200;
 var letter = 0;
 function typingText() {
 	if(letter < text.length) {
@@ -27,7 +27,7 @@ function typingText() {
 setTimeout(typingText,1000);
 
 function welcomeMessage() {
-	document.getElementById("output-text").innerHTML = "Welcome back, Badware.";
+	document.getElementById("output-text").innerHTML = "Welcome back, Badware.<br></br>";
 	document.getElementById("output-text").style.display = "block";
 	newElement();
 }
